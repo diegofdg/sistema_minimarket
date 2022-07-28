@@ -70,5 +70,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Sol_Minimarket.Entidades\Sol_Minimarket.Entidades.csproj">
+      <Project>{7dc42010-a496-43ff-8fa1-a769bb16ebe7}</Project>
+      <Name>Sol_Minimarket.Entidades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sol_Minimarket.Negocio\Sol_Minimarket.Negocio.csproj">
+      <Project>{dcd1256d-0b41-45a3-8cd9-931a6c7ba13d}</Project>
+      <Name>Sol_Minimarket.Negocio</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
