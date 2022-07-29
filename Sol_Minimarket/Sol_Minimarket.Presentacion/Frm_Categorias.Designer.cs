@@ -29,8 +29,10 @@ namespace Sol_Minimarket.Presentacion
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Categorias));
             this.Tbc_principal = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.Dgv_principal = new System.Windows.Forms.DataGridView();
@@ -50,6 +52,7 @@ namespace Sol_Minimarket.Presentacion
             this.Btn_salir = new System.Windows.Forms.Button();
             this.pnl_titulo_form = new System.Windows.Forms.Panel();
             this.label16 = new System.Windows.Forms.Label();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.Tbc_principal.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Dgv_principal)).BeginInit();
@@ -217,6 +220,7 @@ namespace Sol_Minimarket.Presentacion
             this.Btn_nuevo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(230)))), ((int)(((byte)(154)))));
             this.Btn_nuevo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_nuevo.ImageKey = "nuevo.png";
+            this.Btn_nuevo.ImageList = this.imageList1;
             this.Btn_nuevo.Location = new System.Drawing.Point(25, 325);
             this.Btn_nuevo.Name = "Btn_nuevo";
             this.Btn_nuevo.Size = new System.Drawing.Size(75, 60);
@@ -231,6 +235,7 @@ namespace Sol_Minimarket.Presentacion
             this.Btn_actualizar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(230)))), ((int)(((byte)(154)))));
             this.Btn_actualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_actualizar.ImageKey = "actualizar.png";
+            this.Btn_actualizar.ImageList = this.imageList1;
             this.Btn_actualizar.Location = new System.Drawing.Point(106, 325);
             this.Btn_actualizar.Name = "Btn_actualizar";
             this.Btn_actualizar.Size = new System.Drawing.Size(75, 60);
@@ -245,6 +250,7 @@ namespace Sol_Minimarket.Presentacion
             this.Btn_eliminar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(230)))), ((int)(((byte)(154)))));
             this.Btn_eliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_eliminar.ImageKey = "eliminar.png";
+            this.Btn_eliminar.ImageList = this.imageList1;
             this.Btn_eliminar.Location = new System.Drawing.Point(187, 325);
             this.Btn_eliminar.Name = "Btn_eliminar";
             this.Btn_eliminar.Size = new System.Drawing.Size(75, 60);
@@ -259,6 +265,7 @@ namespace Sol_Minimarket.Presentacion
             this.Btn_reporte.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(230)))), ((int)(((byte)(154)))));
             this.Btn_reporte.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_reporte.ImageKey = "reporte.png";
+            this.Btn_reporte.ImageList = this.imageList1;
             this.Btn_reporte.Location = new System.Drawing.Point(268, 325);
             this.Btn_reporte.Name = "Btn_reporte";
             this.Btn_reporte.Size = new System.Drawing.Size(75, 60);
@@ -273,6 +280,7 @@ namespace Sol_Minimarket.Presentacion
             this.Btn_salir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(230)))), ((int)(((byte)(154)))));
             this.Btn_salir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_salir.ImageKey = "salir.png";
+            this.Btn_salir.ImageList = this.imageList1;
             this.Btn_salir.Location = new System.Drawing.Point(349, 325);
             this.Btn_salir.Name = "Btn_salir";
             this.Btn_salir.Size = new System.Drawing.Size(75, 60);
@@ -302,6 +310,16 @@ namespace Sol_Minimarket.Presentacion
             this.label16.Size = new System.Drawing.Size(126, 18);
             this.label16.TabIndex = 0;
             this.label16.Text = "CATEGORIAS";
+            // 
+            // imageList1
+            // 
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "actualizar.png");
+            this.imageList1.Images.SetKeyName(1, "eliminar.png");
+            this.imageList1.Images.SetKeyName(2, "nuevo.png");
+            this.imageList1.Images.SetKeyName(3, "reporte.png");
+            this.imageList1.Images.SetKeyName(4, "salir.png");
             // 
             // Frm_Categorias
             // 
@@ -352,5 +370,6 @@ namespace Sol_Minimarket.Presentacion
         private System.Windows.Forms.Button Btn_retornar;
         private System.Windows.Forms.Panel pnl_titulo_form;
         private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.ImageList imageList1;
     }
 }

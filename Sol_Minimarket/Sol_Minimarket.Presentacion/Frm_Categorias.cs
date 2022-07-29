@@ -200,7 +200,7 @@ namespace Sol_Minimarket.Presentacion
 
         private void Btn_salir_Click(object sender, EventArgs e)
         {
-            
+            this.Close();
         }
     }
 }
