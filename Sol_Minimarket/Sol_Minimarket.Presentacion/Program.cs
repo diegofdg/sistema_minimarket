@@ -18,7 +18,8 @@ namespace Sol_Minimarket.Presentacion
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new Frm_Categorias());
             //Application.Run(new Frm_Marcas());
-            Application.Run(new Frm_Unidades_Medidas());
+            //Application.Run(new Frm_Unidades_Medidas());
+            Application.Run(new Frm_Almacenes());
         }
     }
 }
