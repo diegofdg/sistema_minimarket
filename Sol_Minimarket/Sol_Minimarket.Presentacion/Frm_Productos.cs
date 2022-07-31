@@ -101,7 +101,6 @@ namespace Sol_Minimarket.Presentacion
             }
         }
 
-
         private void Formato_ma_pr()
         {
             Dgv_marcas.Columns[0].Width = 200;
@@ -166,6 +165,7 @@ namespace Sol_Minimarket.Presentacion
                 this.Codigo_um = Convert.ToInt32(Dgv_medidas.CurrentRow.Cells["codigo_um"].Value);
                 Txt_descripcion_um.Text = Convert.ToString(Dgv_medidas.CurrentRow.Cells["descripcion_um"].Value);
             }
+
         }
 
         private void Formato_ca_pr()
@@ -199,6 +199,7 @@ namespace Sol_Minimarket.Presentacion
                 this.Codigo_ca = Convert.ToInt32(Dgv_categorias.CurrentRow.Cells["codigo_ca"].Value);
                 Txt_descripcion_ca.Text = Convert.ToString(Dgv_categorias.CurrentRow.Cells["descripcion_ca"].Value);
             }
+
         }
 
         private void Formato_stock_actual()
@@ -239,9 +240,8 @@ namespace Sol_Minimarket.Presentacion
             if (Txt_descripcion_pr.Text == String.Empty ||
                 Txt_descripcion_ma.Text == String.Empty ||
                 Txt_descripcion_um.Text == String.Empty ||
-                Txt_descripcion_ca.Text == String.Empty //||
-                //Txt_pu_venta.Text == string.Empty
-                )
+                Txt_descripcion_ca.Text == String.Empty ||
+                Txt_pu_venta.Text == string.Empty)
             {
                 MessageBox.Show("Falta ingresa datos requeridos (*)", "Aviso del Sistema", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -256,7 +256,7 @@ namespace Sol_Minimarket.Presentacion
                 oPr.Codigo_ca = this.Codigo_ca;
                 oPr.Stock_min = Convert.ToDecimal(Txt_stock_min.Text);
                 oPr.Stock_max = Convert.ToDecimal(Txt_stock_max.Text);
-                //oPr.Pu_venta = Convert.ToDecimal(Txt_pu_venta.Text);
+                oPr.Pu_venta = Convert.ToDecimal(Txt_pu_venta.Text);
 
                 Rpta = N_Productos.Guardar_pr(Estadoguarda, oPr);
                 if (Rpta == "OK")
@@ -314,7 +314,8 @@ namespace Sol_Minimarket.Presentacion
             Txt_descripcion_pr.ReadOnly = false;
             Txt_stock_min.ReadOnly = false;
             Txt_stock_max.ReadOnly = false;
-            //Txt_pu_venta.ReadOnly = false;
+            Txt_pu_venta.ReadOnly = false;
+
             Txt_descripcion_pr.Focus();
         }
 
@@ -355,7 +356,7 @@ namespace Sol_Minimarket.Presentacion
 
         private void Btn_eliminar_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrEmpty(Convert.ToString(Dgv_principal.CurrentRow.Cells["codigo_pr"].Value)))
+            if (string.IsNullOrEmpty(Convert.ToString(Dgv_principal.CurrentRow.Cells["codigo_al"].Value)))
             {
                 MessageBox.Show("No se tiene información para Visualizar", "Aviso del Sistema", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -386,9 +387,9 @@ namespace Sol_Minimarket.Presentacion
 
         private void Btn_reporte_Click(object sender, EventArgs e)
         {
-            //Reportes.Frm_Rpt_Productos oRpt_pr = new Reportes.Frm_Rpt_Productos();
-            //oRpt_pr.txt_p1.Text = Txt_buscar.Text;
-            //oRpt_pr.ShowDialog();
+            Reportes.Frm_Rpt_Productos oRpt_pr = new Reportes.Frm_Rpt_Productos();
+            oRpt_pr.txt_p1.Text = Txt_buscar.Text;
+            oRpt_pr.ShowDialog();
         }
 
         private void Btn_salir_Click(object sender, EventArgs e)
