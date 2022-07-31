@@ -23,7 +23,8 @@ namespace Sol_Minimarket.Presentacion
             //Application.Run(new Frm_Productos());
             //Application.Run(new Frm_Rubros());
             //Application.Run(new Frm_Departamentos());
-            Application.Run(new Frm_Provincias());
+            //Application.Run(new Frm_Provincias());
+            Application.Run(new Frm_Distritos());
         }
     }
 }
