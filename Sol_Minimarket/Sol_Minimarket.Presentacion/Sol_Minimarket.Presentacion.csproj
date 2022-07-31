@@ -76,6 +76,12 @@
     <Compile Include="Frm_Categorias.Designer.cs">
       <DependentUpon>Frm_Categorias.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_Departamentos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Departamentos.Designer.cs">
+      <DependentUpon>Frm_Departamentos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_Marcas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -119,6 +125,12 @@
     <Compile Include="Reportes\Frm_Rpt_Categorias.Designer.cs">
       <DependentUpon>Frm_Rpt_Categorias.cs</DependentUpon>
     </Compile>
+    <Compile Include="Reportes\Frm_Rpt_Departamentos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\Frm_Rpt_Departamentos.Designer.cs">
+      <DependentUpon>Frm_Rpt_Departamentos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Reportes\Frm_Rpt_Marcas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -143,6 +155,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Categorias.resx">
       <DependentUpon>Frm_Categorias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Departamentos.resx">
+      <DependentUpon>Frm_Departamentos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Marcas.resx">
       <DependentUpon>Frm_Marcas.cs</DependentUpon>
@@ -171,6 +186,9 @@
     <EmbeddedResource Include="Reportes\Frm_Rpt_Categorias.resx">
       <DependentUpon>Frm_Rpt_Categorias.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Frm_Rpt_Departamentos.resx">
+      <DependentUpon>Frm_Rpt_Departamentos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Reportes\Frm_Rpt_Marcas.resx">
       <DependentUpon>Frm_Rpt_Marcas.cs</DependentUpon>
     </EmbeddedResource>
@@ -182,6 +200,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Reportes\Rpt_Almacenes.rdlc" />
     <EmbeddedResource Include="Reportes\Rpt_Categorias.rdlc" />
+    <EmbeddedResource Include="Reportes\Rpt_Departamentos.rdlc" />
     <EmbeddedResource Include="Reportes\Rpt_Marcas.rdlc" />
     <EmbeddedResource Include="Reportes\Rpt_Rubros.rdlc" />
     <EmbeddedResource Include="Reportes\Rpt_Unidades_Medidas.rdlc" />
