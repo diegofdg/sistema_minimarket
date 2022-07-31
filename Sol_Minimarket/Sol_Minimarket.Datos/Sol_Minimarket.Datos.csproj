@@ -47,6 +47,7 @@
     <Compile Include="D_Departamentos.cs" />
     <Compile Include="D_Marcas.cs" />
     <Compile Include="D_Productos.cs" />
+    <Compile Include="D_Provincias.cs" />
     <Compile Include="D_Rubros.cs" />
     <Compile Include="D_Unidades_Medidas.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
