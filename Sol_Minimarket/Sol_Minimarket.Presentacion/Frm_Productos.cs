@@ -47,7 +47,7 @@ namespace Sol_Minimarket.Presentacion
             Dgv_principal.Columns[7].Visible = false;
             Dgv_principal.Columns[8].Visible = false;
             Dgv_principal.Columns[9].Visible = false;
-            //Dgv_principal.Columns[10].Visible = false;
+            Dgv_principal.Columns[10].Visible = false;
         }
 
         private void Listado_pr(string cTexto)
@@ -97,7 +97,7 @@ namespace Sol_Minimarket.Presentacion
                 Txt_descripcion_ca.Text = Convert.ToString(Dgv_principal.CurrentRow.Cells["descripcion_ca"].Value);
                 Txt_stock_min.Text = Convert.ToString(Dgv_principal.CurrentRow.Cells["stock_min"].Value);
                 Txt_stock_max.Text = Convert.ToString(Dgv_principal.CurrentRow.Cells["stock_max"].Value);
-                //Txt_pu_venta.Text = Convert.ToString(Dgv_principal.CurrentRow.Cells["pu_venta"].Value);
+                Txt_pu_venta.Text = Convert.ToString(Dgv_principal.CurrentRow.Cells["pu_venta"].Value);
             }
         }
 
@@ -165,7 +165,6 @@ namespace Sol_Minimarket.Presentacion
                 this.Codigo_um = Convert.ToInt32(Dgv_medidas.CurrentRow.Cells["codigo_um"].Value);
                 Txt_descripcion_um.Text = Convert.ToString(Dgv_medidas.CurrentRow.Cells["descripcion_um"].Value);
             }
-
         }
 
         private void Formato_ca_pr()
@@ -199,7 +198,6 @@ namespace Sol_Minimarket.Presentacion
                 this.Codigo_ca = Convert.ToInt32(Dgv_categorias.CurrentRow.Cells["codigo_ca"].Value);
                 Txt_descripcion_ca.Text = Convert.ToString(Dgv_categorias.CurrentRow.Cells["descripcion_ca"].Value);
             }
-
         }
 
         private void Formato_stock_actual()

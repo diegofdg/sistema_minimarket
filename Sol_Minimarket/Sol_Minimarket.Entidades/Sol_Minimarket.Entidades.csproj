@@ -52,6 +52,7 @@
     <Compile Include="E_Proveedores.cs" />
     <Compile Include="E_Provincias.cs" />
     <Compile Include="E_Rubros.cs" />
+    <Compile Include="E_Salida_Productos.cs" />
     <Compile Include="E_Unidades_Medidas.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -162,7 +162,7 @@
             this.Dgv_principal.ReadOnly = true;
             this.Dgv_principal.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.Dgv_principal.Size = new System.Drawing.Size(1006, 224);
-            this.Dgv_principal.TabIndex = 3;
+            this.Dgv_principal.TabIndex = 3;            
             this.Dgv_principal.DoubleClick += new System.EventHandler(this.Dgv_principal_DoubleClick);
             // 
             // Btn_buscar
@@ -759,9 +759,9 @@
             // 
             this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
             this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList1.Images.SetKeyName(0, "actualizar.png");
-            this.imageList1.Images.SetKeyName(1, "eliminar.png");
-            this.imageList1.Images.SetKeyName(2, "nuevo.png");
+            this.imageList1.Images.SetKeyName(0, "nuevo.png");
+            this.imageList1.Images.SetKeyName(1, "actualizar.png");
+            this.imageList1.Images.SetKeyName(2, "eliminar.png");
             this.imageList1.Images.SetKeyName(3, "reporte.png");
             this.imageList1.Images.SetKeyName(4, "salir.png");
             // 

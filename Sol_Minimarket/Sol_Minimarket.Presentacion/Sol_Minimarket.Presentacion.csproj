@@ -130,6 +130,12 @@
     <Compile Include="Frm_Rubros.Designer.cs">
       <DependentUpon>Frm_Rubros.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_Salida_Productos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Salida_Productos.Designer.cs">
+      <DependentUpon>Frm_Salida_Productos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_Unidades_Medidas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -179,6 +185,12 @@
     <Compile Include="Reportes\Frm_Rpt_Entrada_Productos.Designer.cs">
       <DependentUpon>Frm_Rpt_Entrada_Productos.cs</DependentUpon>
     </Compile>
+    <Compile Include="Reportes\Frm_Rpt_Imprimir_Venta_Generada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\Frm_Rpt_Imprimir_Venta_Generada.Designer.cs">
+      <DependentUpon>Frm_Rpt_Imprimir_Venta_Generada.cs</DependentUpon>
+    </Compile>
     <Compile Include="Reportes\Frm_Rpt_Marcas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -208,6 +220,12 @@
     </Compile>
     <Compile Include="Reportes\Frm_Rpt_Rubros.Designer.cs">
       <DependentUpon>Frm_Rpt_Rubros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Frm_Rpt_Salida_Productos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\Frm_Rpt_Salida_Productos.Designer.cs">
+      <DependentUpon>Frm_Rpt_Salida_Productos.cs</DependentUpon>
     </Compile>
     <Compile Include="Reportes\Frm_Rpt_Unidades_Medidas.cs">
       <SubType>Form</SubType>
@@ -249,6 +267,9 @@
     <EmbeddedResource Include="Frm_Rubros.resx">
       <DependentUpon>Frm_Rubros.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Salida_Productos.resx">
+      <DependentUpon>Frm_Salida_Productos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frm_Unidades_Medidas.resx">
       <DependentUpon>Frm_Unidades_Medidas.cs</DependentUpon>
     </EmbeddedResource>
@@ -279,6 +300,9 @@
     <EmbeddedResource Include="Reportes\Frm_Rpt_Entrada_Productos.resx">
       <DependentUpon>Frm_Rpt_Entrada_Productos.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Frm_Rpt_Imprimir_Venta_Generada.resx">
+      <DependentUpon>Frm_Rpt_Imprimir_Venta_Generada.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Reportes\Frm_Rpt_Marcas.resx">
       <DependentUpon>Frm_Rpt_Marcas.cs</DependentUpon>
     </EmbeddedResource>
@@ -294,11 +318,15 @@
     <EmbeddedResource Include="Reportes\Frm_Rpt_Rubros.resx">
       <DependentUpon>Frm_Rpt_Rubros.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Frm_Rpt_Salida_Productos.resx">
+      <DependentUpon>Frm_Rpt_Salida_Productos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Reportes\Frm_Rpt_Unidades_Medidas.resx">
       <DependentUpon>Frm_Rpt_Unidades_Medidas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Reportes\Rpt_Clientes.rdlc" />
     <EmbeddedResource Include="Reportes\Rpt_Entrada_Productos.rdlc" />
+    <EmbeddedResource Include="Reportes\Rpt_Imprimir_Venta_Generada.rdlc" />
     <EmbeddedResource Include="Reportes\Rpt_Productos.rdlc" />
     <EmbeddedResource Include="Reportes\Rpt_Almacenes.rdlc" />
     <EmbeddedResource Include="Reportes\Rpt_Categorias.rdlc" />
@@ -308,6 +336,7 @@
     <EmbeddedResource Include="Reportes\Rpt_Proveedores.rdlc" />
     <EmbeddedResource Include="Reportes\Rpt_Provincias.rdlc" />
     <EmbeddedResource Include="Reportes\Rpt_Rubros.rdlc" />
+    <EmbeddedResource Include="Reportes\Rpt_Salida_Productos.rdlc" />
     <EmbeddedResource Include="Reportes\Rpt_Unidades_Medidas.rdlc" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
