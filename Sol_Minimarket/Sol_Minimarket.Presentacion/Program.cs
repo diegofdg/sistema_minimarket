@@ -28,7 +28,8 @@ namespace Sol_Minimarket.Presentacion
             //Application.Run(new Frm_Proveedores());
             //Application.Run(new Frm_Entrada_Productos());
             //Application.Run(new Frm_Clientes());
-            Application.Run(new Frm_Salida_Productos());
+            //Application.Run(new Frm_Salida_Productos());
+            Application.Run(new MDI_Principal());
         }
     }
 }
