@@ -270,6 +270,23 @@
     <Compile Include="Reportes\Frm_Rpt_Unidades_Medidas.Designer.cs">
       <DependentUpon>Frm_Rpt_Unidades_Medidas.cs</DependentUpon>
     </Compile>
+    <Compile Include="Reportes_Consolidado\DataSet_Reportes_Consolidado.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet_Reportes_Consolidado.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes_Consolidado\Frm_Reporte_Ingreso_ComprasxProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes_Consolidado\Frm_Reporte_Ingreso_ComprasxProductos.Designer.cs">
+      <DependentUpon>Frm_Reporte_Ingreso_ComprasxProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes_Consolidado\Frm_Rpt_Ingreso_ComprasxProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes_Consolidado\Frm_Rpt_Ingreso_ComprasxProductos.Designer.cs">
+      <DependentUpon>Frm_Rpt_Ingreso_ComprasxProductos.cs</DependentUpon>
+    </Compile>
     <Compile Include="SqlServerTypes\Loader.cs" />
     <EmbeddedResource Include="Frm_Almacenes.resx">
       <DependentUpon>Frm_Almacenes.cs</DependentUpon>
@@ -378,6 +395,10 @@
     <EmbeddedResource Include="Reportes\Rpt_Rubros.rdlc" />
     <EmbeddedResource Include="Reportes\Rpt_Salida_Productos.rdlc" />
     <EmbeddedResource Include="Reportes\Rpt_Unidades_Medidas.rdlc" />
+    <EmbeddedResource Include="Reportes_Consolidado\Frm_Rpt_Ingreso_ComprasxProductos.resx">
+      <DependentUpon>Frm_Rpt_Ingreso_ComprasxProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes_Consolidado\Rpt_Ingreso_ComprasxProductos.rdlc" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -398,6 +419,17 @@
     </None>
     <None Include="Reportes\DataSet_Minimarket.xss">
       <DependentUpon>DataSet_Minimarket.xsd</DependentUpon>
+    </None>
+    <None Include="Reportes_Consolidado\DataSet_Reportes_Consolidado.xsc">
+      <DependentUpon>DataSet_Reportes_Consolidado.xsd</DependentUpon>
+    </None>
+    <None Include="Reportes_Consolidado\DataSet_Reportes_Consolidado.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_Reportes_Consolidado.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Reportes_Consolidado\DataSet_Reportes_Consolidado.xss">
+      <DependentUpon>DataSet_Reportes_Consolidado.xsd</DependentUpon>
     </None>
     <None Include="Sol_Minimarket.Presentacion_TemporaryKey.pfx" />
   </ItemGroup>

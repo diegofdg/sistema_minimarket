@@ -173,7 +173,10 @@ namespace Sol_Minimarket.Presentacion
 
         private void ingresoDeComprasPorProductosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            Reportes_Consolidado.Frm_Reporte_Ingreso_ComprasxProductos oFrm_rep1 = new Reportes_Consolidado.Frm_Reporte_Ingreso_ComprasxProductos();
+            oFrm_rep1.MdiParent = this;
+            oFrm_rep1.StartPosition = FormStartPosition.CenterScreen;
+            oFrm_rep1.Show();
         }
 
         private void salidasDeVentasPorProductosToolStripMenuItem_Click(object sender, EventArgs e)
