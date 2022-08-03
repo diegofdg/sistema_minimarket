@@ -202,7 +202,10 @@ namespace Sol_Minimarket.Presentacion
 
         private void salidaAcumuladoPorProductosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            Reportes_Consolidado.Frm_Reporte_Salida_AcumuladoxProducto oFrm_rep4 = new Reportes_Consolidado.Frm_Reporte_Salida_AcumuladoxProducto();
+            oFrm_rep4.MdiParent = this;
+            oFrm_rep4.StartPosition = FormStartPosition.CenterScreen;
+            oFrm_rep4.Show();
         }
     }
 }
