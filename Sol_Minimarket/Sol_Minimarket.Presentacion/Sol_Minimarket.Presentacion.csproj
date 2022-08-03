@@ -281,11 +281,23 @@
     <Compile Include="Reportes_Consolidado\Frm_Reporte_Ingreso_ComprasxProductos.Designer.cs">
       <DependentUpon>Frm_Reporte_Ingreso_ComprasxProductos.cs</DependentUpon>
     </Compile>
+    <Compile Include="Reportes_Consolidado\Frm_Reporte_Salida_VentasxProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes_Consolidado\Frm_Reporte_Salida_VentasxProductos.Designer.cs">
+      <DependentUpon>Frm_Reporte_Salida_VentasxProductos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Reportes_Consolidado\Frm_Rpt_Ingreso_ComprasxProductos.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Reportes_Consolidado\Frm_Rpt_Ingreso_ComprasxProductos.Designer.cs">
       <DependentUpon>Frm_Rpt_Ingreso_ComprasxProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes_Consolidado\Frm_Rpt_Salida_VentasxProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes_Consolidado\Frm_Rpt_Salida_VentasxProductos.Designer.cs">
+      <DependentUpon>Frm_Rpt_Salida_VentasxProductos.cs</DependentUpon>
     </Compile>
     <Compile Include="SqlServerTypes\Loader.cs" />
     <EmbeddedResource Include="Frm_Almacenes.resx">
@@ -398,7 +410,11 @@
     <EmbeddedResource Include="Reportes_Consolidado\Frm_Rpt_Ingreso_ComprasxProductos.resx">
       <DependentUpon>Frm_Rpt_Ingreso_ComprasxProductos.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Reportes_Consolidado\Frm_Rpt_Salida_VentasxProductos.resx">
+      <DependentUpon>Frm_Rpt_Salida_VentasxProductos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Reportes_Consolidado\Rpt_Ingreso_ComprasxProductos.rdlc" />
+    <EmbeddedResource Include="Reportes_Consolidado\Rpt_Salidas_VentasxProductos.rdlc" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

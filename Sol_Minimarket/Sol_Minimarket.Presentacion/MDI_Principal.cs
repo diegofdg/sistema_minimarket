@@ -181,7 +181,10 @@ namespace Sol_Minimarket.Presentacion
 
         private void salidasDeVentasPorProductosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            Reportes_Consolidado.Frm_Reporte_Salida_VentasxProductos oFrm_rep2 = new Reportes_Consolidado.Frm_Reporte_Salida_VentasxProductos();
+            oFrm_rep2.MdiParent = this;
+            oFrm_rep2.StartPosition = FormStartPosition.CenterScreen;
+            oFrm_rep2.Show();
         }
 
         private void MDI_Principal_Load(object sender, EventArgs e)
