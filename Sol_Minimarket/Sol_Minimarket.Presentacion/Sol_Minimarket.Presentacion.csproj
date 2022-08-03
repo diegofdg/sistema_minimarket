@@ -275,6 +275,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DataSet_Reportes_Consolidado.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Reportes_Consolidado\Frm_Reporte_Ingreso_AcumuladoxProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes_Consolidado\Frm_Reporte_Ingreso_AcumuladoxProducto.Designer.cs">
+      <DependentUpon>Frm_Reporte_Ingreso_AcumuladoxProducto.cs</DependentUpon>
+    </Compile>
     <Compile Include="Reportes_Consolidado\Frm_Reporte_Ingreso_ComprasxProductos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -286,6 +292,12 @@
     </Compile>
     <Compile Include="Reportes_Consolidado\Frm_Reporte_Salida_VentasxProductos.Designer.cs">
       <DependentUpon>Frm_Reporte_Salida_VentasxProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes_Consolidado\Frm_Rpt_Ingreso_AcumuladoxProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes_Consolidado\Frm_Rpt_Ingreso_AcumuladoxProducto.Designer.cs">
+      <DependentUpon>Frm_Rpt_Ingreso_AcumuladoxProducto.cs</DependentUpon>
     </Compile>
     <Compile Include="Reportes_Consolidado\Frm_Rpt_Ingreso_ComprasxProductos.cs">
       <SubType>Form</SubType>
@@ -407,12 +419,16 @@
     <EmbeddedResource Include="Reportes\Rpt_Rubros.rdlc" />
     <EmbeddedResource Include="Reportes\Rpt_Salida_Productos.rdlc" />
     <EmbeddedResource Include="Reportes\Rpt_Unidades_Medidas.rdlc" />
+    <EmbeddedResource Include="Reportes_Consolidado\Frm_Rpt_Ingreso_AcumuladoxProducto.resx">
+      <DependentUpon>Frm_Rpt_Ingreso_AcumuladoxProducto.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Reportes_Consolidado\Frm_Rpt_Ingreso_ComprasxProductos.resx">
       <DependentUpon>Frm_Rpt_Ingreso_ComprasxProductos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Reportes_Consolidado\Frm_Rpt_Salida_VentasxProductos.resx">
       <DependentUpon>Frm_Rpt_Salida_VentasxProductos.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Reportes_Consolidado\Rpt_Ingreso_AcumuladoxProducto.rdlc" />
     <EmbeddedResource Include="Reportes_Consolidado\Rpt_Ingreso_ComprasxProductos.rdlc" />
     <EmbeddedResource Include="Reportes_Consolidado\Rpt_Salidas_VentasxProductos.rdlc" />
     <None Include="packages.config" />
